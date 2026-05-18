@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StaySV - Alojamientos Turísticos</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+
+    <header class="header">
+
+        <nav class="navbar">
+
+            <h2 class="logo">StaySV</h2>
+
+            <button class="menu-btn" id="menu-btn">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#hero">Inicio</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#servicios">Alojamientos</a></li>
+                <li><a href="#contacto">Reservas</a></li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <!-- HERO -->
+
+    <section class="hero" id="hero">
+
+        <div class="hero-content">
+
+            <h1>Descubre los Mejores Alojamientos de El Salvador</h1>
+
+            <p>
+                Hoteles, cabañas y hospedajes cerca de playas,
+                volcanes y destinos turísticos.
+            </p>
+
+            <a href="#contacto" class="btn">
+                Reservar Ahora
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- NOSOTROS -->
+
+    <section class="nosotros" id="nosotros">
+
+        <h2>Sobre Nosotros</h2>
+
+        <p>
+            StaySV conecta turistas con los mejores alojamientos
+            de El Salvador. Nuestro objetivo es ofrecer experiencias
+            cómodas, seguras y accesibles en destinos turísticos
+            destacados del país.
+        </p>
+
+    </section>
+
+    <!-- SERVICIOS -->
+
+    <section class="servicios" id="servicios">
+
+        <h2>Alojamientos Destacados</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>Hotel Costa del Sol</h3>
+                <p>
+                    Habitaciones frente al mar con piscina
+                    y acceso privado a la playa.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Cabañas Cerro Verde</h3>
+                <p>
+                    Hospedaje rodeado de naturaleza con vista
+                    al volcán de Santa Ana.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Hostal Surf City</h3>
+                <p>
+                    Ideal para surfistas y turistas que desean
+                    explorar la costa salvadoreña.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- FORMULARIO -->
+
+    <section class="contacto" id="contacto">
+
+        <h2>Reserva tu Hospedaje</h2>
+
+        <form id="formulario">
+
+            <input type="text" id="nombre" placeholder="Nombre completo">
+
+            <small class="error" id="errorNombre"></small>
+
+            <input type="email" id="email" placeholder="Correo electrónico">
+
+            <small class="error" id="errorEmail"></small>
+
+            <textarea id="mensaje" placeholder="¿Qué destino deseas visitar?"></textarea>
+
+            <small class="error" id="errorMensaje"></small>
+
+            <button type="submit">
+                Enviar Reserva
+            </button>
+
+            <p id="success"></p>
+
+        </form>
+
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer class="footer">
+
+        <p>
+            © 2026 StaySV | Turismo y Alojamientos en El Salvador
+        </p>
+
+        <div class="social">
+
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">GitHub</a>
+
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
